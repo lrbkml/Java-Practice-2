@@ -11,12 +11,13 @@ return salary;
 }
 }
 
+
 public class oops{
     public static void main(String[] args) {
         
         Employee user1 = new Employee();
         Employee user2  = new Employee();
-
+        
         user1.id = 01;
         user1.name = "Laraib";
         user1.salary = 88;

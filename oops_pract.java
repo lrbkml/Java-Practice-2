@@ -13,6 +13,19 @@ class Square {
 
         return peri;
     }
+
+}
+class Rectangle{
+    int side_a;
+    int side_b;
+   
+
+    public int re_area(){
+        return side_a*side_b;
+    }
+    public int re_peri(){ 
+        return (side_a+side_b)+(side_a+side_b) ;
+    }
 }
 
 public class oops_pract {
@@ -21,5 +34,12 @@ public class oops_pract {
          box1.Side= 5;
         box1.sq_area();
          box1.sq_peri();
+
+         Rectangle box2 = new Rectangle();
+         box2.side_a= 4;
+         box2.side_b=6;
+         System.out.println(box2.re_area());
+         System.out.println(box2.re_peri());
+
     }
 }
