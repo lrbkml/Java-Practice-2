@@ -38,6 +38,7 @@ public class oops_pract {
          Rectangle box2 = new Rectangle();
          box2.side_a= 4;
          box2.side_b=6;
+         System.out.println("Recatangle");
          System.out.println(box2.re_area());
          System.out.println(box2.re_peri());
 
