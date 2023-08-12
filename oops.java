@@ -1,10 +1,12 @@
 class Employee{
 int id;
 String name;
+int age;
 int salary;
 public  void emp_details(){
     System.out.println("My id is "+id);
     System.out.println("My name is "+name);
+     System.out.println("My age is "+age);
 }
 public int getsalary(){
 return salary;
@@ -20,10 +22,12 @@ public class oops{
         
         user1.id = 01;
         user1.name = "Laraib";
+        user1.age = 23;
         user1.salary = 88;
         // System.out.printf(user1.id +" "+ user1.name);
          user2.id = 02;
          user2.name = "Kamal";
+         user2.age=25;
         user2.salary = 34;
 
        
