@@ -1,3 +1,4 @@
+
 class Circle {
   public int radius;
  
@@ -14,7 +15,7 @@ class Cylinder extends Circle{
 
 }
 
-public class dynamic_dispactch {
+public class inheritance_prac2 {
     public static void main(String[] args) {
         Circle c = new Circle();
         c.radius = 20;
