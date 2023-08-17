@@ -21,9 +21,10 @@ public class inheritance_prac2 {
         c.radius = 20;
         Cylinder cl = new Cylinder();
         cl.radius=22;
-      cl.height = 30;
+      cl.height = 20;
      System.out.println(c.area()); 
      System.out.println(cl.volume());
+     System.out.println("...");
         
     }
 }
