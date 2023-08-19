@@ -6,7 +6,11 @@ interface b extends a {
     void meth3();
     void meth4();
 }
-class Sampleclass implements b{
+interface c {
+    void meth5();
+    void meth6();
+}
+class Sampleclass implements b,c{
     public void meth1(){
         System.out.println("meth 1");
     }
@@ -19,6 +23,13 @@ class Sampleclass implements b{
     public void meth4(){
         System.out.println("meth 4");
     }
+    public void meth5(){
+        System.out.println("meth 5");
+    }
+    public void meth6(){
+        System.out.println("meth 6");
+    }
+
 }
 
 public class inheritance_interfaces {
@@ -28,5 +39,15 @@ public class inheritance_interfaces {
         s.meth2();
         s.meth3();
         s.meth4();
+        c x = new Sampleclass();
+        x.meth5();
+        x.meth6();
+        
+        b y = new Sampleclass();
+        y.meth2();
+        y.meth4();
+        a z = new Sampleclass();
+        z.meth1();
+        z.meth2();
     }
 }
