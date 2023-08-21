@@ -19,6 +19,7 @@ public class pan_card_validator {
         else{
             
             System.out.println("Invalid Pan Format"+x);
+            System.out.println("try something else");
         }
     
     }
