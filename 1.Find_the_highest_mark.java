@@ -31,6 +31,7 @@ class Highestmark
          }
          System.out.println("Highest mark is "+max);
          System.out.println("Highest mark is ");
+         System.out.println("Highest mark ");
         }
     }
 }
